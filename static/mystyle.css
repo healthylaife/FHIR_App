@@ -1,0 +1,67 @@
+.body_styles{
+    background-image: url("background.gif");
+}
+
+.form-center {
+    padding-top: 100px;
+    width: 50vw; 
+    margin-left : 25vw;
+}
+
+.label_styles{
+    padding-top: 40px;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: yellow;
+}
+
+.inputs {
+    width: 100%;
+    padding: 18px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    background-color: antiquewhite; 
+    border-width: medium;
+}
+
+.submit_style{
+    background-color: lightgreen;
+    border-width: medium;
+    border-color: yellow;
+    color: #350ccb;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container_styles{
+    padding-top: 100px;
+    width: 50vw; 
+    margin-left : 5vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+#lab_logo{
+    height: 100px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* #ud_logo {
+    float: left;
+    width: 300px;
+    height: 100%;
+    border: 3px solid #73AD21;
+    position: absolute;
+    padding: 10px;
+  } */

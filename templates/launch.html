@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="/static/mystyle.css">
+</head>
+<body class="body_styles">
+	<!-- <img src="{{ url_for('static', filename='UDLogo.jpg') }}" id="ud_logo"> -->
+	<form id = "form" class="form-center" action="/select" method="post">
+		<img src="{{ url_for('static', filename='labLogo.png') }}" id="lab_logo">
+		<label for="firstName" class="label_styles">Enter First Name:</label>
+		<input type="text" id="firstName" class = "inputs" name="firstName">
+		<br>
+		<label for="lastName" class="label_styles">Enter Last Name:</label>
+		<input type="text" id="lastName" class = "inputs" name="lastName">
+		<br>
+		<label for="patientID" class="label_styles">Enter Patient ID:</label>
+		<input type="text" id="patientID" class = "inputs" name="patientID">
+		<br>
+
+		<input type="submit" class="submit_style" value="Login">
+
+	</form> 
+
+</body>
+</html>

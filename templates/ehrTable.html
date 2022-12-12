@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EHR Variables</title>
+    <link rel="stylesheet" href="/static/tables.css">
+</head>
+<body class="body_styles">
+    <table class="table">
+        <tr class = "tableHeader">
+            {% for header in headings %}
+                <th class="tableCell">{{header}}</th>
+            {% endfor %}
+        </tr>
+        
+        {% for (key,value) in data %}
+            <tr class="tableRow">
+                <td class="tableCell">{{key}}</td>
+                <td class="tableCell">
+                    {% for element in value %}
+                            {{element}}<br>
+                    {% endfor %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

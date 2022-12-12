@@ -1,0 +1,21 @@
+.body_styles{
+    background-color: #E1C699;
+}
+
+.table{
+    border-spacing: 0;
+    margin: 1rem;
+    background-color: #90EE90;
+}
+
+.tableRow:nth-child(even){
+    background-color: #FFD580;
+}
+
+.tableHeader{
+    text-align: left;
+}
+
+.tableCell{
+    padding: 8px;
+}
