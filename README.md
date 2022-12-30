@@ -2,25 +2,9 @@
 
 ## Table of Contents:
 - [What is FHIR-App?](#What-is-FHIR-App?)
-- [Instructions to run the app](#Instructions-to-run-the-app)
 - [Repository Structure](#Repository-Structure)
-- [How to use the pipeline?](#How-to-use-the-pipeline)
+- [Instructions to run the app](#Instructions-to-run-the-app)
 
-## Instructions to run the app: 
-
-1. First we need a virtual environment. Follow the commands to create a virtual environment for your project. These are the commands for windows.
-
-  **python -m virtualenv venv**
-
-  **venv/Scripts/Activate**
-
-2. Pip install the required packages.
-
-  **pip install flask** 
-
-3. Other libraries can be also installed the same way: pip install matplotlib, pip install seaborn etc
-
-4. Once you are done with installing the libraries, do '**flask run**' to run the app
 
 
 ## Repository Structure:
@@ -40,3 +24,20 @@
 3. It also displays an EHR table: age (in months) vs medications given along with other EHR variables. 
 
 4. The last table is the rank features table which ranks/sorts the EHR variables/medications by importance. 
+
+
+## Instructions to run the app: 
+
+1. First we need a virtual environment. Follow the commands to create a virtual environment for your project. These are the commands for windows.
+
+  **python -m virtualenv venv**
+
+  **venv/Scripts/Activate**
+
+2. Pip install the required packages.
+
+  **pip install flask** 
+
+3. Other libraries can be also installed the same way: pip install matplotlib, pip install seaborn etc
+
+4. Once you are done with installing the libraries, do '**flask run**' to run the app
