@@ -1,5 +1,11 @@
 # FHIR_App
 
+## Table of Contents:
+- [What is FHIR-App?](#What-is-FHIR-App?)
+- [Instructions to run the app](#Instructions-to-run-the-app)
+- [Repository Structure](#Repository-Structure)
+- [How to use the pipeline?](#How-to-use-the-pipeline)
+
 ## Instructions to run the app: 
 
 1. First we need a virtual environment. Follow the commands to create a virtual environment for your project. These are the commands for windows.
@@ -17,7 +23,7 @@
 4. Once you are done with installing the libraries, do '**flask run**' to run the app
 
 
-## Description of the app:
+## Repository Structure:
 
 1. The FHIR_App mainly consists of 3 folders and an app.py file.
 
