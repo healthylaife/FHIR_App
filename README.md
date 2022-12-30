@@ -5,7 +5,6 @@ In this work, we build an API for pediatric patient care leveraging FHIR from He
 The clinical predictuon model reads data in FHIR format and gives output in FHIR format. This makes our model interoperable to different EHR syatems provided thaty have an interface to map their EHR data to standard FHIR reources. UI part the complete framework also reads data in FHIR format and can be easily integrated to the clincial prediction model which gives output in FHIR format.
 
 ## Table of Contents:
-- [What is FHIR-App?](#What-is-FHIR-App?)
 - [Repository Structure](#Repository-Structure)
 - [Instructions to run the app](#Instructions-to-run-the-app)
 
